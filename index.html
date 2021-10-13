@@ -10,33 +10,38 @@
 </head>
 
 <body>
-    <div class="container">
-        <section>
-            <div>
-                <img src="img/star-20.png" alt="">
-                <img src="img/flags-9.png" alt="">
+
+    <header class="header">
+        <div class="container">
+            <div class="header__user">
+                <div class="header__user-icons">
+                    <img src="img/star-20.png" alt="" class="header__user-icons-star">
+                    <img src="img/flags-9.png" alt="">
+                </div>
+
+                <p class="header__user-name"><a href="#" class="header__user-name-link">Артур Пирожков</a></p>
             </div>
 
-            <p>Артур Пирожков</p>
-        </section>
+            <div class="header__main">
+                <div class="header__main-logo">
+                    <img src="img/logo.png" alt="Логотип Сатурн">
+                </div>
 
-        <header>
-            <div>
-                <img src="img/logo.png" alt="Логотип Сатурн">
-            </div>
+                <div class="header__main-info">
+                    <div class="header__main-info-item">
+                        <p>Ваш город:</p>
+                        <p>Санкт-Петербург</p>
+                    </div>
 
-            <div>
-                <p>Ваш город:</p>
-                <p>Санкт-Петербург</p>
-            </div>
+                    <div class="header__main-info-item header__main-info-item-tel">
+                        <a href="tel:+78123222266" class="header__main-info-item-tel-link">8 (812) 322-22-66</a>
+                        <p>Заказать звонок</p>
+                    </div>
 
-            <div>
-                <a href="tel:+78123222266">8 (812) 322-22-66</a>
-                <p>Заказать звонок</p>
-            </div>
-
-            <div>
-                <span>(10) <p>товаров на сумму</p> 5 364 р.</span>
+                    <div class="header__main-info-item">
+                        <p class="header__main-info-item-text"><b class="red">(10)</b> товаров <br> на сумму <b class="red">5 364 р.</b></p>
+                    </div>
+                </div>
             </div>
 
             <!-- <div>
@@ -53,9 +58,11 @@
                     <li><a href="#">ПОКУПАТЕЛЯМ</a></li>
                 </ul>
             </div> -->
-        </header>
+        </div>
+    </header>
 
-        <main>
+    <main>
+        <div class="container">
             <section>
                 <p>КАТАЛОГ</p>
 
@@ -165,9 +172,11 @@
                     <button>ПОДРОБНОСТИ</button>
                 </div>
             </section>
-        </main>
+        </div>
+    </main>
 
-        <footer>
+    <footer>
+        <div class="container">
             <div>
                 <form action="#">
                     <p>Получайте выгодные предложения, просто оставьте свою почту!</p>
@@ -403,8 +412,9 @@
                 <p>ПРАВИЛЬНАЯ ЦЕНА</p>
                 <p>НАЛИЧИЕ НА СКЛАДЕ</p>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
+
 
 </body>
 

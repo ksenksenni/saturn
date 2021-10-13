@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('fonts/HelveticaNeueCyr-Light.eot');
+    src: url('fonts/HelveticaNeueCyr-Light.eot') format('embedded-opentype'), url('fonts/HelveticaNeueCyr-Light.woff2') format('woff2'), url('fonts/HelveticaNeueCyr-Light.woff') format('woff'), url('fonts/HelveticaNeueCyr-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin: 0;
+}
+
+.container {
+    max-width: 965px;
+    margin: 0 auto;
+}
+
+.red {
+    color: #ed1a23;
+}
+
+
+/* header */
+
+.header {
+    background-image: url(img/gradient.png);
+    background-repeat: no-repeat;
+}
+
+.header__user {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.header__user-icons {
+    margin-right: 135px;
+}
+
+.header__user-icons-star {
+    margin-right: 20px;
+}
+
+.header__user-name {
+    position: relative;
+    padding-right: 26px;
+    margin-right: 20px;
+}
+
+.header__user-name::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    width: 15px;
+    height: 159px;
+    background-image: url(img/user.png);
+    background-repeat: no-repeat;
+}
+
+.header__user-name-link {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding-top: 20px;
+}
+
+.header__main-logo {
+    margin-left: 25px;
+}
+
+.header__main-info {
+    display: flex;
+}
+
+.header__main-info-item {
+    position: relative;
+    margin-right: 30px;
+    padding-left: 50px;
+    font-size: 13px;
+    line-height: 5px;
+}
+
+.header__main-info-item:nth-child(3) {
+    line-height: 15px;
+}
+
+.header__main-info-item::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 30px;
+    background-image: url(img/tel.png);
+    background-repeat: no-repeat;
+}
+
+.header__main-info-item:first-child::before {
+    background-image: url(img/gps.png);
+    top: 10px;
+}
+
+.header__main-info-item:last-child::before {
+    background-image: url(img/cart.png);
+    width: 33px;
+    top: 10px;
+}
+
+.header__main-info-item-tel {
+    margin-top: 10px;
+}
+
+.header__main-info-item-tel-link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.header__main-info-item-text {
+    margin-top: 5px;
+}
