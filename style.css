@@ -97,6 +97,14 @@ body {
     line-height: 5px;
 }
 
+.header__main-info-item-geo {
+    color: #010c2c;
+}
+
+.header__main-info-item-geo-link {
+    color: #010c2c;
+}
+
 .header__main-info-item:nth-child(3) {
     line-height: 15px;
     margin-right: 0;
@@ -179,6 +187,7 @@ body {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
     padding-top: 5px;
     padding-bottom: 5px;
+    color: #010c2c;
 }
 
 .navigation__catalog {
@@ -255,5 +264,36 @@ body {
     text-decoration: none;
     font-size: 11px;
     line-height: 22.91px;
-    color: #000000;
+    color: #010c2c;
+}
+
+
+/* crumbs */
+
+.crumbs {
+    background-color: #f6f6f6;
+}
+
+.crumbs__items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-top: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.crumbs__items-item {
+    font-size: 10px;
+    line-height: 15px;
+    color: #8b8989;
+    margin-right: 5px;
+}
+
+.crumbs__items-item-link {
+    color: #8b8989;
+}
+
+.crumbs__items-item-link-nounderline {
+    text-decoration: none;
 }
