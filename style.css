@@ -54,6 +54,17 @@
         .red {
             color: #ed1a23;
         }
+        
+        .btn {
+            font-family: 'HelveticaNeueCyr-Roman', sans-serif;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #ed1c24;
+            border: 1px solid #ed1c24;
+            border-radius: 3px;
+            padding: 15px 40px;
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+        }
         /* header */
         
         .header {
@@ -475,14 +486,6 @@
         
         .price__content-btn {
             margin-top: 10px;
-            font-family: 'HelveticaNeueCyr-Roman', sans-serif;
-            font-size: 16px;
-            color: #ffffff;
-            background-color: #ed1c24;
-            border: 1px solid #ed1c24;
-            border-radius: 3px;
-            padding: 15px 40px;
-            box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
         }
         /* types */
         
@@ -552,4 +555,35 @@
             color: #656565;
             font-size: 12px;
             line-height: 15px;
+        }
+        /* unloading */
+        
+        .unloading {
+            margin-top: 60px;
+            margin-left: 65px;
+            padding-bottom: 40px;
+        }
+        
+        .unloading__title {
+            font-family: 'HelveticaNeueCyr-Bold', sans-serif;
+            color: #ed1c24;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        
+        .unloading__application {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .unloading__application-content {
+            max-width: 300px;
+            margin-top: 65px;
+            margin-right: 100px;
+        }
+        
+        .unloading__application-text {
+            font-family: 'AvenirNextCyr-Bold', sans-serif;
+            font-size: 23px;
+            line-height: 40px;
         }
