@@ -1087,6 +1087,17 @@
             font-size: 18px;
         }
     }
+    /* scroll */
+    
+    .scroll {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    
+    .scroll-card {
+        display: inline-block;
+    }
     /* footer */
     
     .footer {
