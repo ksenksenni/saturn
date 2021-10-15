@@ -617,6 +617,12 @@
             }
         }
         
+        @media screen and (max-width: 800px) {
+            .about {
+                display: none;
+            }
+        }
+        
         .about__menu {
             max-width: 195px;
             box-shadow: 3px 0 3px -3px rgba(0, 0, 0, 0.5);
@@ -698,6 +704,12 @@
             margin-bottom: 0;
         }
         
+        @media screen and (max-width: 800px) {
+            .advantages {
+                display: none;
+            }
+        }
+        
         .advantages__title {
             font-family: 'HelveticaNeueCyr-Bold', sans-serif;
             color: #ed1c24;
@@ -741,6 +753,20 @@
         
         .advantages__items-column-item-gps::before {
             background-image: url(img/icon-gps.png);
+        }
+        /* about-mobile */
+        
+        .about-mobile {
+            display: none;
+        }
+        
+        @media screen and (max-width: 800px) {
+            .about-mobile {
+                display: block;
+                padding-top: 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
         }
         /* price */
         
