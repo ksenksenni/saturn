@@ -38,6 +38,22 @@
             font-style: normal;
         }
         
+        @font-face {
+            font-family: 'AvenirNextCyr-Light';
+            src: url('fonts/AvenirNextCyr-Light.eot');
+            src: url('fonts/AvenirNextCyr-Light.eot') format('embedded-opentype'), url('fonts/AvenirNextCyr-Light.woff2') format('woff2'), url('fonts/AvenirNextCyr-Light.woff') format('woff'), url('fonts/AvenirNextCyr-Light.ttf') format('truetype');
+            font-weight: lighter;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'AvenirNextCyr-Demi';
+            src: url('fonts/AvenirNextCyr-Demi.eot');
+            src: url('fonts/AvenirNextCyr-Demi.eot') format('embedded-opentype'), url('fonts/AvenirNextCyr-Demi.woff2') format('woff2'), url('fonts/AvenirNextCyr-Demi.woff') format('woff'), url('fonts/AvenirNextCyr-Demi.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
         body {
             font-family: 'HelveticaNeueCyr-Light', sans-serif;
             font-size: 14px;
@@ -208,6 +224,7 @@
         .main {
             background-image: url(img/bg-laminat.png);
             margin-top: -27px;
+            padding-bottom: 60px;
         }
         
         .container-bg {
@@ -586,4 +603,218 @@
             font-family: 'AvenirNextCyr-Bold', sans-serif;
             font-size: 23px;
             line-height: 40px;
+        }
+        /* footer */
+        
+        .footer {
+            background-image: url(img/bg-footer.png);
+            color: #ffffff;
+            font-family: 'AvenirNextCyr-Demi', sans-serif;
+        }
+        
+        .footer__columns {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .footer__columns-item {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 7px;
+        }
+        
+        .footer__columns-title {
+            font-size: 19px;
+            line-height: 25px;
+            margin-bottom: 0;
+        }
+        
+        .footer__columns-item-link {
+            font-family: 'AvenirNextCyr-Light', sans-serif;
+            font-size: 13px;
+            line-height: 23px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        .footer__columns-items-form {
+            width: 166px;
+            padding-top: 20px;
+            padding-bottom: 25px;
+            color: #000000;
+            background-color: #ffffff;
+            padding-left: 14px;
+            margin-top: -10px;
+            margin-bottom: 30px;
+        }
+        
+        .footer__columns-items-form-block {
+            position: relative;
+        }
+        
+        .footer__columns-items-form-block-input {
+            width: 134px;
+            background-color: #fafafa;
+            border: 1px solid #d7d7d7;
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+            font-size: 11px;
+            padding: 8px;
+        }
+        
+        .footer__columns-items-form-block-btn {
+            position: absolute;
+            top: 0px;
+            right: 14px;
+            background-image: url(img/arrow-right.png);
+            background-color: #ed1c24;
+            border: 1px solid #ed1c24;
+            background-repeat: no-repeat;
+            background-position: 55%;
+            width: 9px;
+            height: 16px;
+            border: none;
+            padding: 12px;
+            height: 30px;
+        }
+        
+        .footer__columns-items-social {
+            display: flex;
+            margin-left: 20px;
+        }
+        
+        .footer__columns-items-social-btn {
+            position: relative;
+            margin-right: 30px;
+        }
+        
+        .footer__columns-items-social-btn:first-child {
+            position: relative;
+            margin-right: 35px;
+        }
+        
+        .footer__columns-items-social-btn::before {
+            position: absolute;
+            content: "";
+            top: 0px;
+            right: 0px;
+            background-image: url(img/icon-fb.png);
+            background-repeat: no-repeat;
+            width: 35px;
+            height: 35px;
+        }
+        
+        .footer__columns-items-social-btn:first-child:before {
+            background-image: url(img/icon-vk.png);
+        }
+        
+        .footer__columns-items-social-btn:last-child:before {
+            background-image: url(img/icon-ok.png);
+        }
+        
+        .footer__columns-items-questions {
+            margin-top: 45px;
+        }
+        
+        .footer__columns-items-tel {
+            color: #ffffff;
+            font-size: 19px;
+            line-height: 30px;
+            text-decoration: none;
+        }
+        
+        .footer__columns-items-cards {
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .footer__columns-items-cards-items:first-child {
+            margin-bottom: -7px;
+        }
+        
+        .footer__columns-items-cards-items-item:nth-child(odd) {
+            margin-right: -4px;
+        }
+        
+        .footer__columns-items-site-card {
+            font-family: 'AvenirNextCyr-Light', sans-serif;
+            font-size: 12px;
+            line-height: 19px;
+            color: #ffffff;
+            padding-left: 50px;
+            position: relative;
+        }
+        
+        .footer__columns-items-site-card::before {
+            position: absolute;
+            content: "";
+            top: -8px;
+            left: 9px;
+            background-image: url(img/card-site.png);
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 30px;
+        }
+        
+        .footer__info {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            font-family: 'AvenirNextCyr-Light', sans-serif;
+            font-size: 14px;
+            line-height: 15px;
+        }
+        
+        .footer__info-image {
+            margin-top: 15px;
+        }
+        
+        .footer__info-text {
+            margin-left: 40px;
+        }
+        
+        .footer__info-text-copyright {
+            text-align: center;
+            font-family: 'AvenirNextCyr-Light', sans-serif;
+            font-size: 14px;
+            line-height: 15px;
+        }
+        
+        .footer__bottom {
+            display: flex;
+            justify-content: space-between;
+            background-color: #031324;
+            font-family: 'AvenirNextCyr-Light', sans-serif;
+            font-size: 16px;
+            line-height: 33px;
+            padding-top: 15px;
+            padding-bottom: 10px;
+        }
+        
+        .footer__bottom-item {
+            position: relative;
+            padding-left: 70px;
+        }
+        
+        .footer__bottom-item::before {
+            position: absolute;
+            content: "";
+            top: 0px;
+            left: 5px;
+            background-image: url(img/price.png);
+            background-repeat: no-repeat;
+            width: 44px;
+            height: 41px;
+        }
+        
+        .footer__bottom-item:first-child::before {
+            background-image: url(img/assortment.png);
+            width: 45px;
+            height: 35px;
+        }
+        
+        .footer__bottom-item:last-child::before {
+            background-image: url(img/availability.png);
+            width: 42px;
+            height: 39px;
+            left: 18px;
         }
