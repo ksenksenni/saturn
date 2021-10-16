@@ -1355,10 +1355,13 @@ body {
     line-height: 15px;
 }
 
+.footer__bottom {
+    background-color: #031324;
+}
+
 .footer__bottom-block {
     display: flex;
     justify-content: space-between;
-    background-color: #031324;
     font-family: 'AvenirNextCyr-Light', sans-serif;
     font-size: 16px;
     line-height: 33px;
