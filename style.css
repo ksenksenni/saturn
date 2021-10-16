@@ -795,7 +795,7 @@ body {
 
 .price {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     background-image: url(img/decstop-bg.png);
     background-repeat: no-repeat;
     padding-top: 100px;
