@@ -1125,13 +1125,18 @@ body {
     .slider-mobile__scroll-card {
         display: inline-block;
         border: 1px solid #838383;
-        width: 140px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
         text-align: center;
         margin-right: 10px;
     }
+    .slider-mobile__scroll-card-image {
+        width: 80%;
+        margin-top: 20px;
+    }
     .slider-mobile__scroll-card-caption {
         margin: 0;
+        margin-top: 30px;
         font-family: 'HelveticaNeueCyr-Medium', sans-serif;
         font-size: 12px;
     }
